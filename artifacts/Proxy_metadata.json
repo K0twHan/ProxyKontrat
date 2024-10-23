@@ -1,0 +1,158 @@
+{
+	"compiler": {
+		"version": "0.8.27+commit.40a35a09"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_tokenAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "contractAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_userWallet",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_days",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tokenAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_oldUserWallet",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_newUserWallet",
+						"type": "address"
+					}
+				],
+				"name": "transferOwnership",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_userWallet",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/kontrat icinde kontrat example/proxyKontrat.sol": "Proxy"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+			"keccak256": "0xc6a8ff0ea489379b61faa647490411b80102578440ab9d84e9a957cc12164e70",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0ea104e577e63faea3b69c415637e99e755dcbf64c5833d7140c35a714d6d90c",
+				"dweb:/ipfs/Qmau6x4Ns9XdyynRCNNp3RhLqijJjFm7z5fyZazfYFGYdq"
+			]
+		},
+		"contracts/kontrat icinde kontrat example/firstContract.sol": {
+			"keccak256": "0x66a6f273f541ca9a235c2e4193a419bc4231f723239014a0aea70a098aec201c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9343557877e2743dc90d4f4bd5364729f39ef1b863eca99f6d105f7ab8a18974",
+				"dweb:/ipfs/QmXTqWFgaw1hn14CHcpmXUE2VV4UXHF2qgwbRzkBEptQZf"
+			]
+		},
+		"contracts/kontrat icinde kontrat example/proxyKontrat.sol": {
+			"keccak256": "0xc19207ef18646f8ea5da9c5c8676f5276362656252d06f4a84e8f9adad639c49",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5b9ecea1568df62fc99f50f9669803c6696aad85113e9e7b9b4d219c324537c5",
+				"dweb:/ipfs/QmU4vuHWDdFS1thdxNF2q4uC9niYQNM98XcxAem95nkUNS"
+			]
+		}
+	},
+	"version": 1
+}
